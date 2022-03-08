@@ -6,7 +6,9 @@ import Footer from "../footer";
 function Shipment() {
   const [shipments, setShipments] = useState([]);
   async function getShipments() {
-    const shipmentsRes = await axios.get("http://localhost:5000/shipment/");
+    const shipmentsRes = await axios.get(
+      "https://iswds.herokuapp.com/shipment/"
+    );
     setShipments(shipmentsRes.data);
   }
 

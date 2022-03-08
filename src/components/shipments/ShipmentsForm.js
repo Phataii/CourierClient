@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, {  useState } from "react";
+import React, { useState } from "react";
 
 function ShipmentsForm({ getShipments }) {
   const [itemName, setItemName] = useState("");
@@ -25,7 +25,7 @@ function ShipmentsForm({ getShipments }) {
         receiver,
         status,
       };
-      await axios.post("http://localhost:5000/shipment/", shipmentData);
+      await axios.post("https://iswds.herokuapp.com/shipment/", shipmentData);
 
       getShipments();
     } catch (err) {

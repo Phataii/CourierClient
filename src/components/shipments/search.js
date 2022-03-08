@@ -12,7 +12,7 @@ export default function Search() {
     e.preventDefault();
     try {
       const res = await axios.get(
-        `http://localhost:5000/shipment/${shipmentId}`
+        `https://iswds.herokuapp.com/shipment/${shipmentId}`
       );
       setShipments(res.data);
       // console.log(res.data);
