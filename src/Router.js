@@ -11,7 +11,7 @@ import Search from "../src/components/shipments/search";
 
 function Router() {
   const { loggedIn } = useContext(AuthContext);
-
+  console.log(loggedIn);
   return (
     <BrowserRouter>
       <Switch>
