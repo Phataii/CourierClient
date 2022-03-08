@@ -1,15 +1,15 @@
 import axios from "axios";
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 
 function ShipmentsForm({ getShipments }) {
   const [itemName, setItemName] = useState("");
-  const [trackingId, setTrackingId] = useState("");
+  const [trackingId] = useState("");
   const [location, setLocation] = useState("");
   const [time, setTime] = useState("");
   const [date, setDate] = useState("");
   const [receiver, setReceiver] = useState("");
   const [sender, setSender] = useState("");
-  const [status, setStatus] = useState("Moving");
+  const [status] = useState("Moving");
 
   async function saveShipment(e) {
     e.preventDefault();
