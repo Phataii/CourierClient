@@ -51,6 +51,6 @@ function Router() {
 
 const Fake = () => {
   const match = useRouteMatch();
-  return <div>{JSON.stringify(match.params)}</div>;
+  return <div>name:{JSON.stringify(match.params)}</div>;
 };
 export default Router;
