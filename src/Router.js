@@ -19,6 +19,10 @@ function Router() {
           <Navbar />
           <Index />
         </Route>
+        <Route path="/search">
+          {/* <Navbar /> */}
+          <Search />
+        </Route>
         {loggedIn === false && (
           <>
             <Route path="/register">
@@ -26,9 +30,6 @@ function Router() {
             </Route>
             <Route path="/login">
               <Login />
-            </Route>
-            <Route path="/search">
-              <Search />
             </Route>
           </>
         )}
