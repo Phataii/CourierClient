@@ -54,7 +54,7 @@ const Fake = () => {
   return (
     <div>
       <div>name:{JSON.stringify(match.params)}</div>
-      <div>name:{JSON.stringify(match.params.itemName1)}</div>
+      <div>name:{JSON.stringify(match.itemName1)}</div>
     </div>
   );
 };
