@@ -28,7 +28,6 @@ function Router() {
               <Login />
             </Route>
             <Route path="/search">
-              {/* <Navbar /> */}
               <Search />
             </Route>
           </>

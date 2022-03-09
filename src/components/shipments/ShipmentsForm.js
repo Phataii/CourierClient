@@ -2,7 +2,11 @@ import axios from "axios";
 import React, { useState } from "react";
 
 function ShipmentsForm({ getShipments }) {
-  const [itemName, setItemName] = useState("");
+  const [itemName1, setItemName1] = useState("");
+  const [itemName2, setItemName2] = useState("");
+  const [itemName3, setItemName3] = useState("");
+  const [itemName4, setItemName4] = useState("");
+  const [itemName5, setItemName5] = useState("");
   const [trackingId] = useState("");
   const [location, setLocation] = useState("");
   const [time, setTime] = useState("");
@@ -16,7 +20,11 @@ function ShipmentsForm({ getShipments }) {
 
     try {
       const shipmentData = {
-        itemName,
+        itemName1,
+        itemName2,
+        itemName3,
+        itemName4,
+        itemName5,
         trackingId,
         location,
         time,
@@ -44,9 +52,45 @@ function ShipmentsForm({ getShipments }) {
           type="text"
           placeholder="Item name"
           onChange={(e) => {
-            setItemName(e.target.value);
+            setItemName1(e.target.value);
           }}
-          value={itemName}
+          value={itemName1}
+        />
+        <input
+          className="w-2/5 h-10 rounded-md shadow-xl border-2 border-gray-700 p-2 mt-1 mb-3 text-gray-900"
+          type="text"
+          placeholder="Item name"
+          onChange={(e) => {
+            setItemName2(e.target.value);
+          }}
+          value={itemName2}
+        />
+        <input
+          className="w-2/5 h-10 rounded-md shadow-xl border-2 border-gray-700 p-2 mt-1 mb-3 text-gray-900"
+          type="text"
+          placeholder="Item name"
+          onChange={(e) => {
+            setItemName3(e.target.value);
+          }}
+          value={itemName3}
+        />
+        <input
+          className="w-2/5 h-10 rounded-md shadow-xl border-2 border-gray-700 p-2 mt-1 mb-3 text-gray-900"
+          type="text"
+          placeholder="Item name"
+          onChange={(e) => {
+            setItemName4(e.target.value);
+          }}
+          value={itemName4}
+        />
+        <input
+          className="w-2/5 h-10 rounded-md shadow-xl border-2 border-gray-700 p-2 mt-1 mb-3 text-gray-900"
+          type="text"
+          placeholder="Item name"
+          onChange={(e) => {
+            setItemName5(e.target.value);
+          }}
+          value={itemName5}
         />
         <input
           className="w-2/5 h-10 rounded-md shadow-xl border-2 border-gray-700 p-2 mt-1 mb-3 text-gray-900"

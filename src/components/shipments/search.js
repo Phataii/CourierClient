@@ -66,7 +66,11 @@ export default function Search() {
 
               <tbody>
                 <tr className="text-center">
-                  <td>{shipments.itemName}</td>
+                  <td>{shipments.itemName1}</td>
+                  <td>{shipments.itemName2}</td>
+                  <td>{shipments.itemName3}</td>
+                  <td>{shipments.itemName4}</td>
+                  <td>{shipments.itemName5}</td>
                   <td>{shipments._id}</td>
                   <td>{shipments.location}</td>
                   <td>{shipments.time}</td>

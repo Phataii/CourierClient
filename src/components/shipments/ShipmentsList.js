@@ -25,7 +25,12 @@ function ShipmentsList({ shipments }) {
           <tbody>
             {shipments.map((item, i) => (
               <tr className="text-center">
-                <td key={i}>{item.itemName}</td>
+                <td key={i}>{item.itemName1}</td>
+                <td key={i}>{item.itemName2}</td>
+                <td key={i}>{item.itemName3}</td>
+                <td key={i}>{item.itemName4}</td>
+                <td key={i}>{item.itemName5}</td>
+
                 <Link key={item._id} to={`/shipment/${item._id}/edit`}>
                   <td key={i} style={{ color: "blue" }}>
                     {item._id}
