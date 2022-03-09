@@ -225,7 +225,7 @@ export default function Index() {
             <img
               src={require("../images/truck.png").default}
               alt="Name"
-              className="h-24 w-24 rounded-full md:ml-60 mt-10"
+              className="h-24 w-24 rounded-full md:ml-60 ml-44 mt-10"
             />
             <p>John Smith</p>
             <p>
@@ -239,7 +239,7 @@ export default function Index() {
             <img
               src={require("../images/truck.png").default}
               alt="Name"
-              className="h-24 w-24 rounded-full md:ml-60 mt-10"
+              className="h-24 w-24 rounded-full md:ml-60 ml-44 mt-10"
             />
             <p>John Smith</p>
             <p>
@@ -255,7 +255,7 @@ export default function Index() {
             <img
               src={require("../images/truck.png").default}
               alt="Name"
-              className="h-24 w-24 rounded-full md:ml-60 mt-10"
+              className="h-24 w-24 rounded-full md:ml-60 ml-44 mt-10"
             />
             <p>John Smith</p>
             <p>
@@ -269,7 +269,7 @@ export default function Index() {
             <img
               src={require("../images/truck.png").default}
               alt="Name"
-              className="h-24 w-24 rounded-full md:ml-60 mt-10
+              className="h-24 w-24 rounded-full md:ml-60 ml-44 mt-10
               "
             />
             <p>John Smith</p>
