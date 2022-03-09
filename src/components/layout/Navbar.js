@@ -8,7 +8,7 @@ function Navbar() {
 
   return (
     <div className="flex justify-around bg-transaparent absolute h-20 w-full">
-      <h1 className="uppercase font-bold text-2xl text-white text-center border border-white mt-5 p-5 h-full">
+      <h1 className="uppercase font-bold text-2xl text-white text-center mt-5 p-5 h-full">
         IMPACT <span style={{ color: "orange" }}>SAFEWAY</span>
         <br /> DELIVERY
       </h1>

@@ -19,7 +19,7 @@ function Login() {
         password,
       };
 
-       await axios.post("https://iswds.herokuapp.com/auth/login", loginData);
+      await axios.post("https://iswds.herokuapp.com/auth/login", loginData);
       // await axios.post(
       //   "https://mern-auth-template-tutorial.herokuapp.com/auth/login",
       //   loginData
@@ -33,14 +33,14 @@ function Login() {
 
   return (
     <div class="grid md:grid-cols-5">
-      {/* <img
-        src={require("../../images/e.png").default}
+      <img
+        src={require("../../images/mobile.png").default}
         alt="BTC"
-        className="-mt-5 -ml-7 md:hidden"
-      /> */}
+        className="mt-5 md:hidden"
+      />
       <section className="col-span-2 bg-white mx-10 card2 my-24 md:ml-28">
         <div className="text-center p-5 mt-5">
-          <h1 className="font-bold text-3xl">Welcome Back!</h1>
+          {/* <h1 className="font-bold text-3xl">Welcome Back!</h1> */}
           <h2 className="text-gray-600 text-2xl">
             Let's help you track your parcel
           </h2>
@@ -83,8 +83,10 @@ function Login() {
           alt="BTC"
           className="hidden md:block mt-24"
         />
-        <h2 className="uppercase text-2xl text-center font-bold">
-          Impact safe<span className="border-b-8 border-orange-400">way deliv</span>ery services
+        <h2 className="uppercase text-2xl text-center font-bold hidden md:block">
+          Impact safe
+          <span className="border-b-8 border-orange-400">way deliv</span>ery
+          services
         </h2>
       </section>
     </div>
