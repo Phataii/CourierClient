@@ -11,7 +11,11 @@ function ShipmentsList({ shipments }) {
         <table class="w-full table-auto mb-20 p-10 border-collapse border border-slate-400">
           <thead>
             <tr>
-              <th className="border border-slate-300">Name</th>
+              <th className="border border-slate-300">Item 1</th>
+              <th className="border border-slate-300">Item 2</th>
+              <th className="border border-slate-300">Item 3</th>
+              <th className="border border-slate-300">Item 4</th>
+              <th className="border border-slate-300">Item 5</th>
               <th className="border border-slate-300">Tracking ID</th>
               <th className="border border-slate-300">Location</th>
               <th className="border border-slate-300">Time</th>
