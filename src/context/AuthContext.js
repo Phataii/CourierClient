@@ -1,5 +1,5 @@
-import axios from "axios";
 import React, { createContext, useEffect, useState } from "react";
+import { requestClient } from "../utils/request-client";
 
 const AuthContext = createContext();
 
@@ -7,9 +7,7 @@ function AuthContextProvider(props) {
   const [loggedIn, setLoggedIn] = useState(undefined);
 
   async function getLoggedIn() {
-    const loggedInRes = await axios.get(
-      "https://iswds.herokuapp.com/auth/loggedIn"
-    );
+    const loggedInRes = await requestClient.get(`/auth/loggedIn`);
     // const loggedInRes = await axios.get(
     //   "https://mern-auth-template-tutorial.herokuapp.com/auth/loggedIn"
     // );

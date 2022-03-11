@@ -1,14 +1,12 @@
-import axios from "axios";
 import React, { useEffect, useState } from "react";
 import ShipmentForm from "./ShipmentsForm";
 import ShipmentList from "./ShipmentsList";
 import Footer from "../footer";
+import { requestClient } from "../../utils/request-client";
 function Shipment() {
   const [shipments, setShipments] = useState([]);
   async function getShipments() {
-    const shipmentsRes = await axios.get(
-      "https://iswds.herokuapp.com/shipment/"
-    );
+    const shipmentsRes = await requestClient.get("/shipment");
     setShipments(shipmentsRes.data);
   }
 

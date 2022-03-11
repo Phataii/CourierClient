@@ -48,7 +48,7 @@ export default function Search() {
             Tracking Your Shipment
           </h1>
           <div className="md:p-56 md:-mt-48">
-            <table class="md:w-full table-auto mb-20 p-10 border-collapse border border-slate-400">
+            <table className="md:w-full table-auto mb-20 p-10 border-collapse border border-slate-400">
               <thead>
                 <tr>
                   <th className="border border-slate-300">Name</th>

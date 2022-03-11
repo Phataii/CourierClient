@@ -8,7 +8,7 @@ function ShipmentsList({ shipments }) {
         <span style={{ color: "orange" }}>List of </span>Shipments
       </h1>
       <div className="p-56 -mt-48">
-        <table class="w-full table-auto mb-20 p-10 border-collapse border border-slate-400">
+        <table className="w-full table-auto mb-20 p-10 border-collapse border border-slate-400">
           <thead>
             <tr>
               <th className="border border-slate-300">Item 1</th>
@@ -28,24 +28,25 @@ function ShipmentsList({ shipments }) {
 
           <tbody>
             {shipments.map((item, i) => (
-              <tr className="text-center">
-                <td key={i}>{item.itemName1}</td>
-                <td key={i}>{item.itemName2}</td>
-                <td key={i}>{item.itemName3}</td>
-                <td key={i}>{item.itemName4}</td>
-                <td key={i}>{item.itemName5}</td>
+              <tr key={item._id} className="text-center">
+                <td>{item.itemName1}</td>
+                <td>{item.itemName2}</td>
+                <td>{item.itemName3}</td>
+                <td>{item.itemName4}</td>
+                <td>{item.itemName5}</td>
 
-                <Link key={item._id} to={`/shipment/${item._id}/edit`}>
-                  <td key={i} style={{ color: "blue" }}>
-                    {item._id}
-                  </td>
-                </Link>
-                <td key={i}>{item.location}</td>
-                <td key={i}>{item.time}</td>
-                <td key={i}>{item.date}</td>
-                <td key={i}>{item.sender}</td>
-                <td key={i}>{item.receiver}</td>
-                <td key={i}>{item.status}</td>
+                <td style={{ color: "blue" }}>
+                  <Link key={item._id} to={`/shipment/${item._id}/edit`}>
+                    {item._id}{" "}
+                  </Link>
+                </td>
+
+                <td>{item.location}</td>
+                <td>{item.time}</td>
+                <td>{item.date}</td>
+                <td>{item.sender}</td>
+                <td>{item.receiver}</td>
+                <td>{item.status}</td>
               </tr>
             ))}
           </tbody>

@@ -1,7 +1,7 @@
-import axios from "axios";
 import React, { useContext, useState } from "react";
 import { useHistory } from "react-router-dom";
 import AuthContext from "../../context/AuthContext";
+import { requestClient } from "../../utils/request-client";
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -19,11 +19,8 @@ function Login() {
         password,
       };
 
-      await axios.post("https://iswds.herokuapp.com/auth/login", loginData);
-      // await axios.post(
-      //   "https://mern-auth-template-tutorial.herokuapp.com/auth/login",
-      //   loginData
-      // );
+      await requestClient.post("/auth/login", loginData);
+
       await getLoggedIn();
       history.push("/");
     } catch (err) {
@@ -32,7 +29,7 @@ function Login() {
   }
 
   return (
-    <div class="grid md:grid-cols-5">
+    <div className="grid md:grid-cols-5">
       <img
         src={require("../../images/mobile.png").default}
         alt="BTC"

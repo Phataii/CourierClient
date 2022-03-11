@@ -25,7 +25,7 @@ export default function Index() {
       <div className="grid md:grid-cols-3 md:p-20 md:items-center -mt-10">
         <div className="p-20 bg-orange-400">
           <svg
-            class="h-20 ml-14"
+            className="h-20 ml-14"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -76,7 +76,7 @@ export default function Index() {
         </div>
         <div className="p-20 bg-orange-400">
           <svg
-            class="h-20 ml-14"
+            className="h-20 ml-14"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -103,7 +103,7 @@ export default function Index() {
       <div className="grid md:grid-cols-3 md:items-center ">
         <div className="p-20">
           <svg
-            class="h-20 ml-16"
+            className="h-20 ml-16"
             style={{ color: "orange" }}
             fill="none"
             stroke="currentColor"
@@ -124,7 +124,7 @@ export default function Index() {
         </div>
         <div className="p-20">
           <svg
-            class="h-20 ml-16"
+            className="h-20 ml-16"
             style={{ color: "orange" }}
             fill="none"
             stroke="currentColor"
@@ -145,7 +145,7 @@ export default function Index() {
         </div>
         <div className="p-20">
           <svg
-            class="h-20 ml-16"
+            className="h-20 ml-16"
             style={{ color: "orange" }}
             fill="none"
             stroke="currentColor"

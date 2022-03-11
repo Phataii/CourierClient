@@ -14,7 +14,7 @@ function Navbar() {
       </h1>
       <div className="md:mt-5">
         <svg
-          class="w-10 h-10 md:hidden mt-5 cursor-pointer"
+          className="w-10 h-10 md:hidden mt-5 cursor-pointer"
           fill="currentColor"
           viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg"

@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { BrowserRouter, Switch, Route, useRouteMatch } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Index from "./components/index";
 
 import Login from "./components/auth/Login";
@@ -8,10 +8,10 @@ import Shipments from "./components/shipments/Shipments";
 import Navbar from "./components/layout/Navbar";
 import AuthContext from "./context/AuthContext";
 import Search from "../src/components/shipments/search";
+import { EditShipment } from "./components/shipments/EditShipment";
 
 function Router() {
   const { loggedIn } = useContext(AuthContext);
-  console.log(loggedIn);
   return (
     <BrowserRouter>
       <Switch>
@@ -40,7 +40,7 @@ function Router() {
             </Route>
 
             <Route exact path="/shipment/:id/edit">
-              <Fake />
+              <EditShipment />
             </Route>
           </>
         )}
@@ -49,13 +49,4 @@ function Router() {
   );
 }
 
-const Fake = () => {
-  const match = useRouteMatch();
-  return (
-    <div>
-      <div>name:{JSON.stringify(match.params)}</div>
-      <div>name:{JSON.stringify(match.itemName1)}</div>
-    </div>
-  );
-};
 export default Router;
