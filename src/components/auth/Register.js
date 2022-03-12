@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { useHistory } from "react-router-dom";
+import { useHistory, Link } from "react-router-dom";
 import AuthContext from "../../context/AuthContext";
 import { requestClient } from "../../utils/request-client";
 
@@ -78,9 +78,9 @@ function Register() {
         </form>
         <p className="p-2 text-gray-700 text-center">
           Already have an account?{" "}
-          <a href="login" className="font-bold">
+          <Link to="/login" className="font-bold">
             Login
-          </a>
+          </Link>
         </p>
       </section>
       <section className="md:col-span-2 hidden md:block -ml-14 mr-8 mt-10">
