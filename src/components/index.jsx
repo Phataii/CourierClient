@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "./footer";
+import Link from "react-router-dom";
 export default function Index() {
   return (
     <div className="text-justify text-gray-600">
@@ -17,7 +18,8 @@ export default function Index() {
         </h1>
         <button className="bg-orange-400 h-16 w-48 mt-5 italic uppercase text-white text-xl">
           <span className="font-bold text-white">
-            <a href="/search">Track Shipment</a>
+            {/* <a href=""></a> */}
+            <Link to="/search">Track Shipment</Link>
           </span>
         </button>
       </div>
