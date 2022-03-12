@@ -50,11 +50,11 @@ function Navbar() {
       <div className="mt-6 w-fit">
         {loggedIn === false && (
           <>
-            <a href="./login">
+            <Link to="/login">
               <span className="border p-3 rounded-md text-gray-200 font-bold text-sm border-yellow-500  hover:bg-orange-400 hover:text-white duration-700">
                 Login / Signup
               </span>
-            </a>
+            </Link>
           </>
         )}
         {loggedIn === true && (
