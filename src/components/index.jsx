@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "./footer";
-import Link from "react-router-dom";
+import {Link} from "react-router-dom";
 export default function Index() {
   return (
     <div className="text-justify text-gray-600">
