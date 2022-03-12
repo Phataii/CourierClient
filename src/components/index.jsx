@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "./footer";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 export default function Index() {
   return (
     <div className="text-justify text-gray-600">
@@ -225,61 +225,57 @@ export default function Index() {
         <div className="grid md:grid-cols-2">
           <div className="card2 text-center">
             <img
-              src={require("../images/truck.png").default}
+              src={require("../images/m1.png").default}
               alt="Name"
               className="h-24 w-24 rounded-full md:ml-60 ml-44 mt-10"
             />
-            <p>John Smith</p>
+            <p>Dinnesh Jr.</p>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus
-              quae laboriosam fuga impedit omnis aperiam repellat aut, et at,
-              odit iusto suscipit laborum, voluptatibus cum ipsum. Ut impedit
-              quia natus.
+              This is one of the most fast and reliable platforms i have ever
+              used. And they offer great customer services with efficient
+              delivery.
             </p>
           </div>
           <div className="card2 text-center">
             <img
-              src={require("../images/truck.png").default}
+              src={require("../images/w1.jpg").default}
               alt="Name"
               className="h-24 w-24 rounded-full md:ml-60 ml-44 mt-10"
             />
-            <p>John Smith</p>
+            <p>Holmat Stones</p>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus
-              quae laboriosam fuga impedit omnis aperiam repellat aut, et at,
-              odit iusto suscipit laborum, voluptatibus cum ipsum. Ut impedit
-              quia natus.
+              Great customer service and very timely delivery. The driver eas
+              great and worked to make it to the destination on time. I very
+              much appreciate the hardwork and communication.
             </p>
           </div>
         </div>
         <div className="grid md:grid-cols-2">
           <div className="card2 text-center">
             <img
-              src={require("../images/truck.png").default}
+              src={require("../images/m2.png").default}
               alt="Name"
               className="h-24 w-24 rounded-full md:ml-60 ml-44 mt-10"
             />
             <p>John Smith</p>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus
-              quae laboriosam fuga impedit omnis aperiam repellat aut, et at,
-              odit iusto suscipit laborum, voluptatibus cum ipsum. Ut impedit
-              quia natus.
+              I've been in customer service for a long time and have not run
+              across any platform as nice and helpful as impact safeway delivery
+              service. Thank you ISWDS!
             </p>
           </div>
           <div className="card2 text-center">
             <img
-              src={require("../images/truck.png").default}
+              src={require("../images/w2.jpg").default}
               alt="Name"
               className="h-24 w-24 rounded-full md:ml-60 ml-44 mt-10
               "
             />
-            <p>John Smith</p>
+            <p>Sabrina Jones</p>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus
-              quae laboriosam fuga impedit omnis aperiam repellat aut, et at,
-              odit iusto suscipit laborum, voluptatibus cum ipsum. Ut impedit
-              quia natus.
+              This was the first time we've had need of a courier i truly don't
+              know how to thank you and the other folkd at ISWDS for helping
+              today, i fot the delivery notification and was so so relived.
             </p>
           </div>
         </div>
