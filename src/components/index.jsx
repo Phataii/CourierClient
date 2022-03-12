@@ -253,7 +253,7 @@ export default function Index() {
         <div className="grid md:grid-cols-2">
           <div className="card2 text-center">
             <img
-              src={require("../images/m2.png").default}
+              src={require("../images/m2.jpg").default}
               alt="Name"
               className="h-24 w-24 rounded-full md:ml-60 ml-44 mt-10"
             />
