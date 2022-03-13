@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import ShipmentForm from "./ShipmentsForm";
 import ShipmentList from "./ShipmentsList";
 import Footer from "../footer";
+import { Link } from "react-router-dom";
 import { requestClient } from "../../utils/request-client";
 function Shipment() {
   const [shipments, setShipments] = useState([]);
@@ -21,6 +22,9 @@ function Shipment() {
         alt="ETH"
         className="w-screen h-80"
       />
+      <Link to="/">
+        <button>Go back home</button>
+      </Link>
       <ShipmentForm getShipments={getShipments} />
       <ShipmentList shipments={shipments} />
       <Footer />
