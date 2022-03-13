@@ -193,7 +193,7 @@ export default function Index() {
           <img
             src={require("../images/bg6.png").default}
             alt="ship"
-            className=" h-full w-fit"
+            className=" h-fit w-fit"
           />
         </div>
       </div>
@@ -208,7 +208,7 @@ export default function Index() {
             parcels via various means of transportations which ranges from Land,
             to water, to air. It may also interest you that we have a well
             equiped and 24/7 secured warehouse where your goods are ensured
-            maximum security and confidentiality
+            maximum security and confidentiality.
           </div>
           <img
             src={require("../images/s1.png").default}
