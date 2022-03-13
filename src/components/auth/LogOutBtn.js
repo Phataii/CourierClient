@@ -1,21 +1,10 @@
-//import axios from "axios";
-//import React, { useContext } from "react";
-import { useHistory } from "react-router-dom";
-//import AuthContext from "../../context/AuthContext";
-import requestClient from "../../utils/request-client";
+import { requestClient } from "../../utils/request-client";
 
 function LogOutBtn() {
-  // const { getLoggedIn } = useContext(AuthContext);
-
-  const history = useHistory();
-
   async function logOut() {
     await requestClient.get("/auth/logout");
-    // await axios.get(
-    //   "https://mern-auth-template-tutorial.herokuapp.com/auth/logout"
-    // );
-    // await getLoggedIn();
-    history.push("/");
+
+    window.location.href = "/";
   }
 
   return (
