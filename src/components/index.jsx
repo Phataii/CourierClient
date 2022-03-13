@@ -6,7 +6,7 @@ export default function Index() {
     <div className="text-justify text-gray-600">
       {/* landing background image */}
       <img
-        src={require("../images/truck.png").default}
+        src={require("../images/bg6.png").default}
         alt="ETH"
         className="h-screen w-screen"
       />
@@ -40,10 +40,13 @@ export default function Index() {
               d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
             ></path>
           </svg>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio nobis
-          reprehenderit magnam nihil ipsam, saepe in sequi corrupti eum
-          voluptatum aperiam illum maxime beatae possimus! Similique ut aut
-          autem at!{" "}
+          Why waste time trying to brave the traffic to get your package, gift,
+          or business documents delivered. With Impact Safway Delivery Service
+          you can relax because we offer seemless delivery anywhere. This means
+          you can focus on what matters most while the experts help you be in
+          two, three, even four places at one time. Just give us a call to see
+          how easy it is to setup your own personal ISWDS and messenger service.
+          Get packages delivered, dry cleaning picked up.
         </div>
         <div className="p-20 bg-gray-700">
           <h2 className="text-white text-center">Send Us a Message</h2>
@@ -92,10 +95,11 @@ export default function Index() {
               d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0"
             ></path>
           </svg>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio nobis
-          reprehenderit magnam nihil ipsam, saepe in sequi corrupti eum
-          voluptatum aperiam illum maxime beatae possimus! Similique ut aut
-          autem at!{" "}
+          Rush Delivery is well things delivered in a rush. We put a priority on
+          these deliveries and make sure they are delivered before regular
+          delivery items. The time of delivery ranges from 2-4 hours and depends
+          on item, distance, and time of day. Contact us to get an estimate on
+          time and price for your rush delivery.
         </div>
       </div>
       {/* what we offer */}
@@ -119,10 +123,9 @@ export default function Index() {
               d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"
             ></path>
           </svg>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio nobis
-          reprehenderit magnam nihil ipsam, saepe in sequi corrupti eum
-          voluptatum aperiam illum maxime beatae possimus! Similique ut aut
-          autem at!{" "}
+          With Impact Safeway Delivery Service, you are guaranteed of your card
+          safety, with our entrusted customer services, we assure you that you
+          card details or any other mode of payment is well protected.{" "}
         </div>
         <div className="p-20">
           <svg
@@ -140,10 +143,9 @@ export default function Index() {
               d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
             ></path>
           </svg>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio nobis
-          reprehenderit magnam nihil ipsam, saepe in sequi corrupti eum
-          voluptatum aperiam illum maxime beatae possimus! Similique ut aut
-          autem at!{" "}
+          We offer a seemless customer care relationship and this brings about
+          the trust we've built over the years, you can contact us using our
+          email or message our phone number below.
         </div>
         <div className="p-20">
           <svg
@@ -161,10 +163,9 @@ export default function Index() {
               d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
             ></path>
           </svg>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio nobis
-          reprehenderit magnam nihil ipsam, saepe in sequi corrupti eum
-          voluptatum aperiam illum maxime beatae possimus! Similique ut aut
-          autem at!{" "}
+          We deliver Parcels anywhere around the globe at a reasonable price and
+          fixed duration of time. Consistency and time consciousness is our top
+          most legacy.
         </div>
       </div>
       {/* Pictures of our services */}
@@ -192,7 +193,7 @@ export default function Index() {
         </div>
         <div className="bg-orange-400">
           <img
-            src={require("../images/truck.png").default}
+            src={require("../images/bg6.png").default}
             alt="BTC"
             className=""
           />
@@ -204,12 +205,7 @@ export default function Index() {
           More <span className="border-b-8 border-orange-400">Services</span>...
         </h2>
         <div className="grid md:grid-cols-2">
-          <div className="p-28">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex tempora,
-            adipisci mollitia unde quod ullam. Laudantium vitae explicabo
-            deserunt cumque? Eos excepturi perferendis reprehenderit voluptatum
-            aliquid! Dignissimos quaerat omnis eligendi.
-          </div>
+          <div className="p-28">tryui</div>
           <img
             src={require("../images/s1.png").default}
             alt="ETH"
