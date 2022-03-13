@@ -44,9 +44,7 @@ export default function Index() {
           or business documents delivered. With Impact Safway Delivery Service
           you can relax because we offer seemless delivery anywhere. This means
           you can focus on what matters most while the experts help you be in
-          two, three, even four places at one time. Just give us a call to see
-          how easy it is to setup your own personal ISWDS and messenger service.
-          Get packages delivered, dry cleaning picked up.
+          two, three, even four places at one time.
         </div>
         <div className="p-20 bg-gray-700">
           <h2 className="text-white text-center">Send Us a Message</h2>
@@ -205,7 +203,13 @@ export default function Index() {
           More <span className="border-b-8 border-orange-400">Services</span>...
         </h2>
         <div className="grid md:grid-cols-2">
-          <div className="p-28">tryui</div>
+          <div className="p-28">
+            To think that there maybe unforseen circumstances, we ship our
+            parcels via various means of transportations which ranges from Land,
+            to water, to air. It may also interest you that we have a well
+            equiped and 24/7 secured warehouse where your goods are ensured
+            maximum security and confidentiality
+          </div>
           <img
             src={require("../images/s1.png").default}
             alt="ETH"
