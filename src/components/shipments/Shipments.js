@@ -23,7 +23,7 @@ function Shipment() {
         className="w-screen h-80"
       />
       <Link to="/">
-        <button>Go back home</button>
+        <button className="bg-orange-400 -mt-70">Go back home</button>
       </Link>
       <ShipmentForm getShipments={getShipments} />
       <ShipmentList shipments={shipments} />
