@@ -7,7 +7,7 @@ export default function Index() {
       {/* landing background image */}
       <img
         src={require("../images/bg6.png").default}
-        alt="ETH"
+        alt="HomeImage"
         className="h-screen w-screen"
       />
       {/* Content on the landing image */}
@@ -171,29 +171,29 @@ export default function Index() {
         <div className="bg-orange-400">
           <img
             src={require("../images/truck.png").default}
-            alt="BTC"
+            alt="Truck"
             className=" h-full w-fit"
           />
         </div>
         <div className="bg-gray-700">
           <img
             src={require("../images/ware.png").default}
-            alt="BTC"
-            className=""
+            alt="Warehouse"
+            className=" h-full w-fit"
           />
         </div>
         <div className="bg-gray-400">
           <img
             src={require("../images/plane.png").default}
-            alt="BTC"
-            className=""
+            alt="Air Cargo"
+            className=" h-full w-fit"
           />
         </div>
         <div className="bg-orange-400">
           <img
             src={require("../images/bg6.png").default}
-            alt="BTC"
-            className=""
+            alt="ship"
+            className=" h-full w-fit"
           />
         </div>
       </div>
@@ -212,7 +212,7 @@ export default function Index() {
           </div>
           <img
             src={require("../images/s1.png").default}
-            alt="ETH"
+            alt="Services"
             className="h-96 mt-3"
           />
         </div>
