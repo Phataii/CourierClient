@@ -25,9 +25,9 @@ function Router() {
         </Route>
         {loggedIn === false && (
           <>
-            <Route path="/register">
+            {/* <Route path="/register">
               <Register />
-            </Route>
+            </Route> */}
             <Route path="/login">
               <Login />
             </Route>

@@ -68,11 +68,15 @@ function Login() {
           />
         </form>
         <p className="p-2 text-gray-700 text-center">
+          Can't Login? Contact the admin
+        </p>
+
+        {/* <p className="p-2 text-gray-700 text-center">
           Don't have an account?{" "}
           <Link to="/register" className="font-bold">
             Signup
           </Link>
-        </p>
+        </p> */}
       </section>
       <section className="md:col-span-2 -ml-16 mr-5">
         <img
